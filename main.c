@@ -24,7 +24,15 @@
  */
 
 int main(int argc, char** argv) {
-
+    glutInit(&argc, argv);
+    glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+    glutInitWindowPosition(375, 55);
+    glutInitWindowSize(700, 700);
+    glutCreateWindow("AGR135 - Algorithm 1 - VG21009"); // Added Carnet
+    glClearColor(1, 1, 1, 1); // White color
+    initialize();
+    glutDisplayFunc(draw);
+    glutMainLoop();
     return (EXIT_SUCCESS);
 }
 
