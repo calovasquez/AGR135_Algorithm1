@@ -37,6 +37,9 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <linkerTool>
+          <commandLine>-lGL -lglut -lGLU</commandLine>
+        </linkerTool>
       </compileType>
       <item path="algorithm1.c" ex="false" tool="0" flavor2="0">
       </item>
