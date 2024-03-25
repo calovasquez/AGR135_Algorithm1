@@ -18,7 +18,9 @@
 #include "./algorithm1.h"
 
 /*
- * 
+ * This algorithm consists of drawing my carnet (VG21009)
+ * using the general straight line equation algorithm
+ * specifically the point-slope equation with OpenGL
  */
 
 int main(int argc, char** argv) {
