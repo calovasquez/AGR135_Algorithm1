@@ -16,7 +16,7 @@ void initialize(void){
 // Main function
 void draw(void){
     glClear(GL_COLOR_BUFFER_BIT);
-    
+        carnet();
     glFlush();
 }
 
